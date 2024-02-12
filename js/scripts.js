@@ -52,6 +52,8 @@ function changeRandomColor() {
         case (randomNumber >= 80 && randomNumber <= 100):
             page.style.backgroundColor = "yellow";
             break;
+        default:
+            page.style.backgroundColor = "white";    
     }
 }
 
