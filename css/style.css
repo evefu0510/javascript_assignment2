@@ -1,0 +1,62 @@
+/* Global styles for the body */
+body {
+    font-family: Arial, sans-serif; /* fallback font */
+    color: black; /* black font color */
+    text-align: center; /* center align text */
+}
+
+/* Styles for heading level 1 (h1) */
+h1 {
+    font-size: 2.5em; /* large font size */
+    margin-bottom: 20px; /* space below the heading */
+    color: darkred; /* dark red font color */
+}
+
+/* Styles for paragraph (p) */
+p {
+    font-size: 1.2em; /* medium font size */
+    margin-bottom: 10px; /* space below the paragraph */
+}
+
+/* Styles for label elements */
+label {
+    font-size: 1.1em; /* slightly smaller font size */
+    margin-bottom: 10px; /* space below the label */
+    display: block; /* make labels block-level elements */
+}
+
+/* Styles for number input and select elements */
+input[type="number"],
+select {
+    padding: 5px; /* padding around the input/select */
+    font-size: 1em; /* default font size */
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 20px; /* padding inside the button */
+    font-size: 1.1em; /* slightly larger font size */
+    margin: 10px; /* space around the button */
+    border: none; /* no border */
+    cursor: pointer; /* cursor style */
+    background-color: #4caf50; /* green background color */
+    color: white; /* white font color */
+    border-radius: 5px; /* rounded corners */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049; /* slightly darker green on hover */
+}
+
+/* Styles for elements with class 'showrandnum' */
+.showrandnum {
+    font-size: 1.2em; /* slightly larger font size */
+}
+
+/* Styles for images container with ID 'images' */
+#images {
+    max-width: 100%; /* maximum width of 100% */
+    height: auto; /* maintain aspect ratio */
+    margin-top: 20px; /* space above the images */
+}
